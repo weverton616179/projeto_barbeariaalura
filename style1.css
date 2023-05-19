@@ -1,0 +1,225 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: rgb(140, 93, 172);
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+header nav {
+    position: absolute;
+    top: 115px;
+    right: 0;
+}
+
+header nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+header nav a {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+header nav a:hover {
+    color: gold;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.navegacao {
+    text-shadow: 2px 2px 10px yellow;
+}
+
+.banner {
+    width: 100%;
+}
+
+main {
+   /* balela */
+}
+
+.principal {
+    background: #ffffff;
+    padding: 3em 0;
+    padding-top: 3em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.titulo-p {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:both
+}
+
+.titulo-p:before {
+    content: "[ ";
+}
+
+.titulo-p:after {
+    content: " ]";
+}
+
+.utensilios {
+    width: 10%;
+    float: left;
+    margin: 0 2% 2% 0;
+}
+
+#missao {
+    font-size: 20px
+}
+
+.mapa {
+    padding: 3em 0;
+    margin: 0 auto;
+    background: linear-gradient(white, grey);
+}
+
+.mapa p {
+    margin: 0 0 2em;
+}
+
+.mapa-c {
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.8;
+    transition: 350ms;
+    box-shadow: 10px 10px 40px 20px #000000
+}
+
+.mapa-c:hover {
+    opacity: 1;
+}
+
+em strong {
+    color: rgb(114, 6, 255);
+}
+
+.itens {
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.itens:before {
+    content: "✪ ";
+}
+
+.itens:nth-child(1) {
+    font-weight: bold;
+} 
+
+.beneficios {
+    background: linear-gradient(grey, rgba(0, 0, 0, 0.89) 99%);
+    padding: 3% ;
+}
+.conteudo-b {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.lista-b {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+.imagemb {
+    width: 50%;
+    box-shadow: 10px 10px 40px 20px #000000, -10px -10px 40px 4px yellow;
+}
+
+.video {
+    padding-top: 2em;
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0px;
+}
+
+.Copyright {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .caixa, .beneficios {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    header nav {
+        position: static;
+    }
+
+    .utensilios {
+        transform: scale(3);
+        padding: 7% 10% 7% 9%;
+    }
+
+    .principal {
+        width: 100%;
+    }
+
+    .beneficios {
+        padding: 0;
+    }
+
+    .conteudo-b, .imagemb, .lista-b {
+        width: 100%;
+    }
+
+    .imagemb {
+        width: 90%;
+        margin: 5%;
+        margin-top: 8%;
+    }
+
+    .lista-b {
+        padding-right: 1em;
+    }
+
+    .video, .videor {
+        width: 100%;
+    }
+}
+
